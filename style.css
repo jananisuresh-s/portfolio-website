@@ -167,6 +167,17 @@ a.string {
     text-decoration: underline;
 }
 
+.project-card a {
+    color: #d1ffd6; /* soft light green */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.project-card a:hover {
+    color: #f1fa8c; /* your existing yellow accent */
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .content-wrapper { 
         padding: 20px; 
